@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme2"
+    android:background="@drawable/bg"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="190dp"
+        android:textAlignment="center"
+        android:text="@string/deskripsi_aplikasi"
+        android:textColor="@color/gold"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#e1be56"
+        android:text="@string/start_quiz"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/ahmad"
+        android:textColor="@color/gold"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/ilham"
+        android:textColor="@color/gold"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/luthfi"
+        android:textColor="@color/gold"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/fadhil"
+        android:textColor="@color/gold"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        />
+
+</FrameLayout>

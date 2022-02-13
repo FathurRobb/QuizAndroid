@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">QUIZ</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="email">Email</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun ?</string>
+    <string name="password">Password</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="hidden">********</string>
+    <string name="tidak_punya_akun">Tidak Punya Akun ?</string>
+    <string name="daftar_disini">Daftar Disini</string>
+    <string name="textview">TextView</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="invalid_account">Akun Tidak Valid</string>
+    <string name="tidak_bisa_buat_akun">Tidak Bisa Buat Akun</string>
+    <string name="email_exist">Email Sudah Ada</string>
+
+    <string name="home_menu">Home</string>
+    <string name="contact_menu">Profile</string>
+
+    <string name="deskripsi_aplikasi">Ini adalah Aplikasi Quiz Buatan 4 Mahasiswa Sekolah Tinggi Teknologi Bandung</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="ahmad">Ahmad Aziz Saputra - 19552011021</string>
+    <string name="fadhil">Muhammad Fadhil Aulia - 19552011133</string>
+    <string name="ilham">Ilham Fathur Robbani - 19552011154</string>
+    <string name="luthfi">Luthfi Al Fikri - 19552011187</string>
+
+    <string name="profil_anda">Profil Anda</string>
+
+
+    <string name="category">Categories</string>
+    <string name="grid_image">Grid Image</string>
+    <string name="share_with">Share with</string>
+
+    <string name="matematika_category">Matematika</string>
+    <string name="ipa_category">IPA</string>
+    <string name="ips_category">IPS</string>
+    <string name="olahraga_category">Olahraga</string>
+    <string name="agama_category">Agama Islam</string>
+    <string name="program_category">Pemrograman</string>
+
+    <string-array name="category_title">
+        <item>@string/matematika_category</item>
+        <item>@string/ipa_category</item>
+        <item>@string/ips_category</item>
+        <item>@string/olahraga_category</item>
+        <item>@string/agama_category</item>
+        <item>@string/program_category</item>
+    </string-array>
+
+    <string name="matematika">matematika</string>
+    <string name="ipa">ipa</string>
+    <string name="ips">ips</string>
+    <string name="olahraga">olahraga</string>
+    <string name="agama">agama</string>
+    <string name="program">pemrograman</string>
+
+    <string-array name="category_ID">
+        <item>@string/matematika</item>
+        <item>@string/ipa</item>
+        <item>@string/ips</item>
+        <item>@string/olahraga</item>
+        <item>@string/agama</item>
+        <item>@string/program</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

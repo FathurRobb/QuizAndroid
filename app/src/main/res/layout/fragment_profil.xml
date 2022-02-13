@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profil_anda"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/purple_700"/>
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password : "
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:background="@color/red"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Log Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</FrameLayout>
